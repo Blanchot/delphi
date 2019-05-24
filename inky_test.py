@@ -14,7 +14,7 @@ font = ImageFont.truetype(FredokaOne, 22)
 from font_source_sans_pro import SourceSansPro
 font= ImageFont.truetype(SourceSansPro, 13)
 
-message = "Small taxes kept the same, \nHelp the common people feel secure \nAnd rectify the state."
+message = "035/1 GATHERING 24/05 AM\nSmall taxes kept the same, \nHelp the common people feel secure \nAnd rectify the state."
 '''
 w, h = font.getsize(message)
 x = (inky_display.WIDTH / 2) - (w / 2)
