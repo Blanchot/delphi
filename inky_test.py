@@ -12,7 +12,7 @@ font = ImageFont.truetype(FredokaOne, 22)
 '''
 
 from font_source_sans_pro import SourceSansPro
-font= ImageFont.truetype(SourceSansPro, 14)
+font= ImageFont.truetype(SourceSansPro, 13)
 
 message = "Small taxes kept the same, \nHelp the common people feel secure \nAnd rectify the state."
 '''
