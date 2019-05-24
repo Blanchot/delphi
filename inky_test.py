@@ -1,6 +1,6 @@
 from inky import InkyPHAT
 inky_display = InkyPHAT("red")
-inky_display.set_border(inky_display.WHITE)
+inky_display.set_border(inky_display.BLACK)
 
 from PIL import Image, ImageFont, ImageDraw
 img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
@@ -12,7 +12,7 @@ font = ImageFont.truetype(FredokaOne, 22)
 '''
 
 from font_source_sans_pro import SourceSansPro
-font= ImageFont.truetype(SourceSansPro, 12)
+font= ImageFont.truetype(SourceSansPro, 14)
 
 message = "Small taxes kept the same, \nHelp the common people feel secure \nAnd rectify the state."
 '''
@@ -22,6 +22,6 @@ y = (inky_display.HEIGHT / 2) - (h / 2)
 '''
 x= 2
 y= 2
-draw.text((x, y), message, inky_display.BLACK, font)
+draw.text((x, y), message, inky_display.WHITE, font)
 inky_display.set_image(img)
 inky_display.show()
