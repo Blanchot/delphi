@@ -6,8 +6,13 @@ from PIL import Image, ImageFont, ImageDraw
 img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
 draw = ImageDraw.Draw(img)
 
+'''
 from font_fredoka_one import FredokaOne
 font = ImageFont.truetype(FredokaOne, 22)
+'''
+
+from font_source_sans_pro import SourceSansPro
+font= ImageFont.truetype(SourceSansPro, 12)
 
 message = "Hello, World!"
 w, h = font.getsize(message)
