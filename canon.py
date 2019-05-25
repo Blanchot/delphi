@@ -50,7 +50,7 @@ def current():
   text= texts[td]
   text= text.replace("\\n","\n",1) #need to add this because csv file weirdness (check using repr())
   topline1= head_nums[td]+ ' ' +heads[td].upper()
-  topline2= ' [' +app_nums[td]+'—' +pos_negs[td]+'] '+times[td]
+  topline2= ' [' +app_nums[td]+'-' +pos_negs[td]+'] '+times[td]
   message=  topline1 + topline2 +'\n'+text
   return message
 
