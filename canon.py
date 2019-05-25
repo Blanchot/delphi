@@ -50,13 +50,13 @@ def current():
   text= texts[td]
   text= text.replace("\\n","\n",1) #need to add this because csv file weirdness (check using repr())
   topline1= head_nums[td]+ ' ' +heads[td].upper()
-  topline2= ' (' +app_nums[td]+':' +pos_negs[td]+') '+times[td]
+  topline2= ' [' +app_nums[td]+'—' +pos_negs[td]+'] '+times[td]
   message=  topline1 + topline2 +'\n'+text
   return message
 
 message= current()
-x= 2
-y= 2
+x= 1
+y= 1
 draw.text((x, y), message, inky_display.BLACK, font)
 inky_display.set_image(img)
 inky_display.show()
