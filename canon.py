@@ -55,8 +55,8 @@ def current():
   return message
 
 message= current()
-x= 1
-y= 1
+x= 0
+y= 0
 draw.text((x, y), message, inky_display.BLACK, font)
 inky_display.set_image(img)
 inky_display.show()
