@@ -32,7 +32,7 @@ with open('canon.csv') as csvfile:
     app_num= row[2]
     pos_neg= row[3]
     time= row[4]
-    text= row[5]   
+    text= row[6] #row[5] is to indicate edits to original text to accomodate smaller screen
     
     head_nums.append(head_num)
     heads.append(head)
