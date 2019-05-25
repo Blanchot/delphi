@@ -13,7 +13,7 @@ img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
 draw = ImageDraw.Draw(img)
 
 from font_source_sans_pro import SourceSansPro
-font= ImageFont.truetype(SourceSansPro, 13)
+font= ImageFont.truetype(SourceSansPro, 12)
 
 #-------------------------LOAD CSV FILE
 
