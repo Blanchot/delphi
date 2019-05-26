@@ -57,6 +57,7 @@ def current():
   return message
 
 message= current()
+print(message) #Should print to cron.log
 x= 0
 y= 0
 draw.text((x, y), message, inky_display.BLACK, font)
