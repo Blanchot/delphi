@@ -1,4 +1,6 @@
-'''Canon.py Version 1: 25 May 2019'''
+#!/usr/bin/python3
+
+'''Canon.py version 1: 25 May 2019'''
 
 import csv
 from datetime import datetime
