@@ -5,17 +5,18 @@ print('Test: ' + str(datetime.now()))
 
 try:
   from inky import InkyPHAT
-except ImportError:
+except:
   print('InkyPHAT not imported!')
 
 try:
   from PIL import Image, ImageFont, ImageDraw
-except ImportError:
+except:
   print('PIL modules not imported!')
 
 try:
   from font_source_sans_pro import SourceSansPro
-except ImportError:
+except:
   print('Font not imported!')
 
+print('End test\n')
 
