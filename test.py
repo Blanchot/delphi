@@ -24,7 +24,7 @@ except:
 
 #-------------------------LOAD CSV FILE
 
-with open('canon_texts.csv') as csvfile:
+with open('/home/pi/delphi/canon_texts.csv') as csvfile:
   readCSV= csv.reader(csvfile, delimiter=';')
   head_nums= []
   heads= []
