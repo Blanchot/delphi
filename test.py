@@ -56,7 +56,7 @@ def current():
   topline_a= head_nums[td]+ ' ' +heads[td].upper()
   topline_b= ' [' +app_nums[td]+' ' +pos_negs[td]+'] '+times[td]
   topline= topline_a + topline_b +'\n'
-  message= topline, appraisal
+  message= topline, text
   return message
 
 topline, appraisal= current()
