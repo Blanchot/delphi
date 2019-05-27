@@ -21,7 +21,7 @@ font= ImageFont.truetype(SourceSansPro, 12)
 
 #-------------------------LOAD CSV FILE
 
-with open('canon_texts.csv') as csvfile:
+with open('/home/pi/delphi/canon_texts.csv') as csvfile: #need full path for cron to work!
   readCSV= csv.reader(csvfile, delimiter=';')
   head_nums= []
   heads= []
