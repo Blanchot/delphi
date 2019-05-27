@@ -53,9 +53,9 @@ def current():
   td= times.index(nu)
   text= texts[td]
   text= text.replace("\\n","\n",4) #need to add this because csv file weirdness (check using repr())
-  topline-a= head_nums[td]+ ' ' +heads[td].upper()
-  topline-b= ' [' +app_nums[td]+' ' +pos_negs[td]+'] '+times[td]
-  topline= topline-a + topline-b +'\n'
+  topline_a= head_nums[td]+ ' ' +heads[td].upper()
+  topline_b= ' [' +app_nums[td]+' ' +pos_negs[td]+'] '+times[td]
+  topline= topline_a + topline_b +'\n'
   message= topline, appraisal
   return message
 
