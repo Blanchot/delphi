@@ -5,6 +5,8 @@
 import csv
 from datetime import datetime
 
+print(datetime.now())
+
 #-------------------------SET UP INKYPHAT
 from inky import InkyPHAT
 inky_display = InkyPHAT("red")
