@@ -19,7 +19,7 @@ font= ImageFont.truetype(SourceSansPro, 12)
 
 #-------------------------LOAD CSV FILE
 
-with open('canon.csv') as csvfile:
+with open('canon_texts.csv') as csvfile:
   readCSV= csv.reader(csvfile, delimiter=';')
   head_nums= []
   heads= []
