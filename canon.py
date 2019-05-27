@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
-'''Canon.py version 1: 25 May 2019'''
+'''Canon.py version 1: 25 May 2019
+Last update (added color differentiation): 27 May 2019'''
 
 import csv
 from datetime import datetime
 
-print(datetime.now())
+print(datetime.now()) #primarily for testing -> cron.log
 
 #-------------------------SET UP INKYPHAT
 from inky import InkyPHAT
@@ -50,19 +51,19 @@ with open('/home/pi/delphi/canon_texts.csv') as csvfile: #need full path for cro
 def current():
   nu= datetime.now()
   nu= nu.strftime('%d/%m %p')
-  td= times.index(nu)
+  td= times.index(nu) #get index of current date and use to create message
   text= texts[td]
   text= text.replace("\\n","\n",4) #need to add this because csv file weirdness (check using repr())
-  topline1= head_nums[td]+ ' ' +heads[td].upper()
-  topline2= ' [' +app_nums[td]+' ' +pos_negs[td]+'] '+times[td]
-  message=  topline1 + topline2 +'\n'+text
+  topline_a= head_nums[td]+ ' ' +heads[td].upper()
+  topline_b= ' [' +app_nums[td]+' ' +pos_negs[td]+'] '+times[td]
+  topline= topline_a + topline_b +'\n'
+  message= topline, text
+  print(message) #Should print to cron.log
   return message
 
-message= current()
-print(message) #Should print to cron.log
-x= 0
-y= 0
-draw.text((x, y), message, inky_display.BLACK, font)
+topline, appraisal= current()
+draw.text((0, 0), topline, inky_display.RED, font)
+draw.text((0, 17), appraisal, inky_display.BLACK, font)
 inky_display.set_image(img)
 inky_display.show()
 
