@@ -56,11 +56,11 @@ def current():
   topline_a= head_nums[td]+ ' ' +heads[td].upper()
   topline_b= ' [' +app_nums[td]+' ' +pos_negs[td]+'] '+times[td]
   topline= topline_a + topline_b +'\n'
+  print(topline + text) #Should print to cron.log
   message= topline, text
   return message
 
 topline, appraisal= current()
-#print(message) #Should print to cron.log
 draw.text((0, 0), topline, inky_display.RED, font)
 draw.text((0, 17), appraisal, inky_display.BLACK, font)
 inky_display.set_image(img)
