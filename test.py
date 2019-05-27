@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 from datetime import datetime
-print(f'Test: {datetime.now()}')
+print('Test: ' + str(datetime.now()))
 
 try:
   from inky import InkyPHAT
