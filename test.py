@@ -106,7 +106,7 @@ draw.text((0, 0), topline, inky_display.WHITE, font)
 draw.text((0, 17), app_txt, inky_display.BLACK, font)
 
 if linecount ==3:
-  draw.text((0, 51), com_txt, inky_display.RED, font)
+  draw.text((0, 68), com_txt, inky_display.RED, font)
   
 inky_display.set_image(img)
 inky_display.show()
