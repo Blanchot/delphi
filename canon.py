@@ -4,6 +4,7 @@
 25 May 2019: First commit
 27 May 2019: Added color differentiation
 30 May 2019: Added phase indication + support for day/night background + 'fathomings'
+30 May 2019: Added day/night background and 'fathomings'
 '''
 
 import csv
@@ -97,8 +98,23 @@ def current():
 #-------------------------DRAW SCREEN
 pos_neg, topline, app_txt, linecount, com_txt= current()
 
-draw.text((0, 0), topline, inky_display.RED, font)
+if pos_neg =='+': #positive means day, yang, auspicious
+  draw.rectangle([0,0,212,17],fill=inky_display.RED)
+else:
+  draw.rectangle([0,0,212,17],fill=inky_display.BLACK)
+  
+draw.text((1, 0), topline, inky_display.WHITE, font) #adding a bit of a buffer: 1 pixel
 draw.text((0, 17), app_txt, inky_display.BLACK, font)
+
+if linecount ==1:
+  draw.text((0, 34), com_txt, inky_display.RED, font)
+elif linecount ==2:
+  draw.text((0, 51), com_txt, inky_display.RED, font)
+elif linecount ==3:
+  draw.text((0, 68), com_txt, inky_display.RED, font)
+elif linecount ==4:
+  draw.text((0, 85), com_txt, inky_display.RED, font)
+  
 inky_display.set_image(img)
 inky_display.show()
 
