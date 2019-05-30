@@ -98,7 +98,8 @@ def current():
 pos_neg, topline, app_txt, linecount, com_txt= current()
 
 if pos_neg =='+': #positive means day, yang, auspicious
-  draw.rectangle([0,0,212,17],fill='Red')
+  draw.rectangle([0,0,212,17],fill=inky_display.RED)
+  #inkyphat.rectangle(xy, fill=None, outline=None)
 else:
   draw.rectangle([0,0,212,17],fill='Black')
   
