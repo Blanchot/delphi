@@ -4,6 +4,7 @@
 25 May 2019: First commit
 27 May 2019: Added color differentiation
 30 May 2019: Added phase indication + support for day/night background + 'fathomings'
+30 May 2019: Added day/night background and 'fathomings'
 '''
 
 import csv
