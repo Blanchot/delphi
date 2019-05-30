@@ -102,7 +102,7 @@ if pos_neg =='+': #positive means day, yang, auspicious
 else:
   draw.rectangle([0,0,212,17],fill=inky_display.BLACK)
   
-draw.text((2, 0), topline, inky_display.WHITE, font) #adding a bit of a buffer: 2 pixels
+draw.text((1, 0), topline, inky_display.WHITE, font) #adding a bit of a buffer: 1 pixel
 draw.text((0, 17), app_txt, inky_display.BLACK, font)
 
 if linecount ==1:
