@@ -69,15 +69,20 @@ def current():
   #Parse the appraisal part of tetapp_num to get the current element phase
   phase= (tetapp_nums[td])[3]
   if phase =='1' or phase =='6':
-    phase= 'A' #Water or Aqua/Agua
+    #phase= 'A' #Water or Aqua/Agua
+    phase= 'a' #Water or Aqua/Agua
   elif phase =='2' or phase =='7':
-    phase= 'F' #Fire
+    #phase= 'F' #Fire
+    phase= 'f' #Fire
   elif phase =='3' or phase =='8':
-    phase= 'W' #Wood
+    #phase= 'W' #Wood
+    phase= 'w' #Wood
   elif phase =='4' or phase =='9':
-    phase= 'M' #Metal
+    #phase= 'M' #Metal
+    phase= 'm' #Metal
   else:
-    phase= 'E' #Earth
+    #phase= 'E' #Earth
+    phase= 'e' #Earth
   
   #Parse app_txt and count number of newlines for composing screen 'drawing'
   app_txt= app_txts[td]
