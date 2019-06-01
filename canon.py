@@ -136,7 +136,7 @@ line4= tet_num//1
 
 lines= [line1, line2, line3, line4]
 
-y_coord= 4
+y_coord= 2 #was 4
 for line in lines:
   if line==0: #no breaks
     draw.line((198,y_coord,208,y_coord), inky_display.WHITE, width=2)
