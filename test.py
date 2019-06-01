@@ -103,7 +103,7 @@ def current():
   return message
 
 #-------------------------DRAW SCREEN
-pos_neg, topline, app_txt, linecount, com_txt, tet_= current()
+pos_neg, topline, app_txt, linecount, com_txt, tet_num= current()
 
 if pos_neg =='+': #positive means day, yang, auspicious
   draw.rectangle([0,0,212,17],fill=inky_display.RED)
