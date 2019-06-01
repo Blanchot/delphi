@@ -139,15 +139,15 @@ lines= [line1, line2, line3, line4]
 y_coord= 4
 for line in lines:
   if line==0: #no breaks
-    draw.line((198,y_coord,208,y_coord), inky_display.WHITE)
+    draw.line((198,y_coord,208,y_coord), inky_display.WHITE, width=2)
   elif line==1: #one breaks
-    draw.line((198,y_coord,202,y_coord), inky_display.WHITE)
-    draw.line((204,y_coord,208,y_coord), inky_display.WHITE)
+    draw.line((198,y_coord,202,y_coord), inky_display.WHITE, width=2)
+    draw.line((204,y_coord,208,y_coord), inky_display.WHITE, width=2)
   elif line==2: #two breaks
-    draw.line((198,y_coord,200,y_coord), inky_display.WHITE)
-    draw.line((202,y_coord,204,y_coord), inky_display.WHITE)
-    draw.line((206,y_coord,208,y_coord), inky_display.WHITE)
-  y_coord= y_coord +2
+    draw.line((198,y_coord,200,y_coord), inky_display.WHITE, width=2)
+    draw.line((202,y_coord,204,y_coord), inky_display.WHITE, width=2)
+    draw.line((206,y_coord,208,y_coord), inky_display.WHITE, width=2)
+  y_coord= y_coord +4 #was 2
 
 #'''
  
