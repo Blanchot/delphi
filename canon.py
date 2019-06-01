@@ -94,7 +94,8 @@ def current():
   
   #Topline composition
   topline_a= tetapp_nums[td]+ ' ' +tet_names[td].upper()
-  topline_b= ' [' +app_nums[td]+' ' +phase+'] '+times[td]
+  #topline_b= ' [' +app_nums[td]+' ' +phase+'] '+times[td]
+  topline_b= ' ' +app_nums[td] +phase+' '+times[td]
   topline= topline_a + topline_b +'\n'
   
   #Return tuple
@@ -123,8 +124,7 @@ elif linecount ==3:
 elif linecount ==4:
   draw.text((0, 85), com_txt, inky_display.RED, font)
 
-#'''
-#TETRAGRAM DRAWING CODE (draws lines in topline area )
+#Begin TETRAGRAM DRAWING CODE (draws lines in topline area )
 tet_num= tet_num -1 #shifting range from 1-81 to 0-80
 line1= tet_num//27
 tet_num= tet_num%27
@@ -149,7 +149,7 @@ for line in lines:
     draw.line((206,y_coord,208,y_coord), inky_display.WHITE, width=2)
   y_coord= y_coord +4 #was 2
 
-#'''
+#End TETRAGRAM DRAWING CODE
  
 inky_display.set_image(img)
 inky_display.show()
