@@ -77,7 +77,11 @@ def current():
   
   #Parse app_txt and count number of newlines for composing screen 'drawing'
   app_txt= app_txts[td]
+  
+  #Research why I need to do what I do in the two lines below
   app_txt= app_txt.replace("\\n","\n",4) #need to add this because csv file weirdness (check using repr())
+  com_txt= com_txt.replace("\\n","\n",4) #need to add this because csv file weirdness (check using repr())
+  
   linecount= app_txt.count('\n') + 1
   
   #Other values to return
