@@ -62,7 +62,10 @@ def current():
   nu= nu.strftime('%d/%m %p')
   td= times.index(nu) #get index of current date and use to create message
   
-  #Parse the appraisal part of the tetapp_num to get the current phase
+  #Parse the number part of tetapp_num for return (to later draw the tetragram)
+  tet_num= int((tetapp_nums[td])[0:2])
+  
+  #Parse the appraisal part of tetapp_num to get the current element phase
   phase= (tetapp_nums[td])[3]
   if phase =='1' or phase =='6':
     phase= 'A' #Water or Aqua/Agua
@@ -77,12 +80,16 @@ def current():
   
   #Parse app_txt and count number of newlines for composing screen 'drawing'
   app_txt= app_txts[td]
-  app_txt= app_txt.replace("\\n","\n",4) #need to add this because csv file weirdness (check using repr())
-  linecount= app_txt.count('\n') + 1
   
   #Other values to return
   pos_neg= pos_negs[td] #Pos or Neg (Yang or Yin, Day or Night)
   com_txt= com_txts[td]
+  
+  #Research why I need to do what I do in the two lines below
+  app_txt= app_txt.replace("\\n","\n",4) #need to add this because csv file weirdness (check using repr())
+  com_txt= com_txt.replace("\\n","\n",4) #need to add this because csv file weirdness (check using repr())
+  
+  linecount= app_txt.count('\n') + 1
   
   #Topline composition
   topline_a= tetapp_nums[td]+ ' ' +tet_names[td].upper()
@@ -90,13 +97,13 @@ def current():
   topline= topline_a + topline_b +'\n'
   
   #Return tuple
-  message= pos_neg, topline, app_txt, linecount, com_txt
+  message= pos_neg, topline, app_txt, linecount, com_txt, tet_num
   
   print(topline + app_txt +'\n('+ com_txt +')') #Prints to cron.log
   return message
 
 #-------------------------DRAW SCREEN
-pos_neg, topline, app_txt, linecount, com_txt= current()
+pos_neg, topline, app_txt, linecount, com_txt, tet_= current()
 
 if pos_neg =='+': #positive means day, yang, auspicious
   draw.rectangle([0,0,212,17],fill=inky_display.RED)
@@ -114,6 +121,35 @@ elif linecount ==3:
   draw.text((0, 68), com_txt, inky_display.RED, font)
 elif linecount ==4:
   draw.text((0, 85), com_txt, inky_display.RED, font)
-  
+
+#'''
+#TETRAGRAM DRAWING CODE (draws lines in topline area )
+tet_num= tet_num -1 #shifting range from 1-81 to 0-80
+line1= tet_num//27
+tet_num= tet_num%27
+line2= tet_num//9
+tet_num= tet_num%9
+line3= tet_num//3
+tet_num= tet_num%3
+line4= tet_num//1
+
+lines= [line1, line2, line3, line4]
+
+y_coord= 2
+for line in lines:
+  if line==0: #no breaks
+    draw.line((203,y_coord,211,y_coord), inky_display.WHITE)
+  elif line==1: #one breaks
+    draw.line((203,y_coord,206,y_coord), inky_display.WHITE)
+    draw.line((208,y_coord,211,y_coord), inky_display.WHITE)
+  elif line==2: #two breaks
+    draw.line((203,y_coord,205,y_coord), inky_display.WHITE)
+    draw.line((206,y_coord,208,y_coord), inky_display.WHITE)
+    draw.line((209,y_coord,211,y_coord), inky_display.WHITE)
+  y_coord= y_coord +2
+
+#'''
+ 
 inky_display.set_image(img)
 inky_display.show()
+
