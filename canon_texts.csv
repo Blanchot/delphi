@@ -152,47 +152,74 @@
 36/8;Strength;323;+;01/06 AM;;He strengthens where he fails,\nMaking an effort where he is weak. ;"Strong after failure.\n""Was mich nicht umbringt,\nMacht mich stärker."""
 36/9;Strength;324;-;01/06 PM;;He uproots Mount T'ai,\nHe snaps pillars and beams.\nSuch men stumble and fall.;In the end, he's undone by violence.
 37/1;Purity;325;+;02/06 AM;;Pure within,\nHe is clear, without stain.;Gazing within, he finds\nHis conscience is clear and incorrupt.
-37/2;Purity;326;-;02/06 PM;E;Tainted secretly, while feigning purity,\nHe is ashamed to the center of his self.;A dark mix pretending to be pure.\nSelf deceitful.
-37/3;Purity;327;+;03/06 AM;;He lifts his eyes up to Heaven.\nHe lowers his ears to the depths.\nSuch is reverence.;He maintains a reverential attitude\nTo everything.
+37/2;Purity;326;-;02/06 PM;E;Tainted secretly, while feigning purity,\nHe is ashamed to the center of his self.;A dark mix pretending to be pure.\nSelf deceit.
+37/3;Purity;327;+;03/06 AM;;He lifts his eyes up to Heaven.\nHe lowers his ears to the depths.\nSuch is reverence.;He maintains a reverential attitude\nIn everything.
 37/4;Purity;328;-;03/06 PM;;The petty man envies the pure,\nAnd so looses rank and propriety.;The Way is not attained.
 37/5;Purity;329;+;04/06 AM;;"Pure to the hidden ""yellow"" core:\nSupremely stable, he knows no bounds.";His model is the rectifying Earth.
 37/6;Purity;330;-;04/06 PM;;Great purity gives way to error,\nAnd so there is change.;Purity succeeded by error\nThe petty man is overcome.
 37/7;Purity;331;+;05/06 AM;;In his purity, he sees his faults in time.\nThe noble man moves to repair them.;He is good at mending errors.
 37/8;Purity;332;-;05/06 PM;;Pure evil, without a trace of good.;Finally, he cannot be helped.
 37/9;Purity;333;+;06/06 AM;;Pure to the end and forever new,\nHe is propriety exemplified.;Truly, this is cause for celebration.
-38/1;Fullness;334;-;06/06 PM;;He prospers, but not by the line.\nHe loses secret virtue.;
-38/2;Fullness;335;+;07/06 AM;;Acts that do not depend on reward\nCan lead to great riches.;
-38/3;Fullness;336;-;07/06 PM;;Love of profit fills the breast.\nIt does not profit the common good.;
-38/4;Fullness;337;+;08/06 AM;;With slight prosperity, subservience\nFunctions as a gateway for great men.;
-38/5;Fullness;338;-;08/06 PM;;Failing to bear good fortune lightly,\nHe picks up ill and is then ensnared.;
-38/6;Fullness;339;+;09/06 AM;;Granting him glory, Heaven\nOpens wide all borders to him.\nIn modesty there are rewards.;
-38/7;Fullness;340;-;09/06 PM;;As summer's fiery heat mounts up\nIt calls forth winter's icy springs.;
-38/8;Fullness;341;+;10/06 AM;;He damps down the full blaze\nAs collapse is about to begin.;
-38/9;Fullness;342;-;10/06 PM;;The greatest prosperity does not save.\nCalamity is sent down from Heaven.;
-39/1;Residence;343;+;11/06 AM;;Not giving or receiving praise or blame,\nHe thus preserves his house.;
-39/2;Residence;344;-;11/06 PM;;The household has no flasks.\nThe wife supplants her elders.\nShe errs, washing them in mud.;
-39/3;Residence;345;+;12/06 AM;;With young and old in proper order,\nThe son can sustain the father.;
-39/4;Residence;346;-;12/06 PM;;A pig appears in the audience hall,\nWith a puppy following its tracks.;
-39/5;Residence;347;+;12/06 AM;;Rudders and oars steady the ride.\nThey are good for riches and stability.;
-39/6;Residence;348;-;13/06 PM;E;He who sets his well and stove apart,\nIn 3 years, only sees his family's back.;
-39/7;Residence;349;+;14/06 AM;;The old man pulls a cart.\nThe young girl raises a jar.\nBoth benefit the ancestral house.;
-39/8;Residence;350;-;14/06 PM;;His stools upended, his ladies in pairs:\nHis household is no good.;
-39/9;Residence;351;+;15/06 AM;;If the stump produces new shoots,\nIts kind is not cut off.;
-40/1;Law/Model;352;-;15/06 PM;;The model he builds is an unfit model.;
-40/2;Law/Model;353;+;16/06 AM;;He copies the model by centering,\nAnd so he overcomes.;
-40/3;Law/Model;354;-;16/06 PM;;Failure to start with level and line,\nRuins his settings of compass and square.;
-40/4;Law/Model;355;+;17/06 AM;;Level, line, compass, square--\nNone work against our applications.;
-40/5;Law/Model;356;-;17/06 PM;;The well rope is short, too short.\nThe water jar is full.\nThe well is deep and wide,\nIn the end it cannot slake our thirst.;
-40/6;Law/Model;357;+;18/06 AM;;In the lead thread, in the guide rope\nPropriety's glories are shown.;
-40/7;Law/Model;358;-;18/06 PM;;If fine nets are cast on deep pools,\nThis does not benefit the fish.;
-40/8;Law/Model;359;+;19/06 AM;;He corrects those of us with faults\nUntil we have no depravity.;
-40/9;Law/Model;360;-;19/06 PM;;If the water has no rail,\nWater spills straight over.\nWith no valley or gorge,\nIt will end in a flood.;
-41/1;Response;361;+;20/06 AM;;Six, as trunk, sets the pattern,\nMaking Five, the branches, well-arranged.;
-41/2;Response;362;-;20/06 PM;;The calendar lays it out above,\nBelow, the pitchpipes are attuned to it.\nIf not, the union of the spheres is blocked.;
-41/3;Response;363;+;21/06 AM;;In length and in breadth,\nHeaven's Net is vast.;
-41/4;Response;364;-;21/06 PM;;Setting nets and snares to catch us,\nEntangling lines stretch to the wilds.;
-41/5;Response;365;+;22/06 AM;;The dragon, in soaring to Heaven,\nRightly fears for its scales.;
-41/6;Response;366;-;22/06 PM;;Blazing heat is sustained in Heaven,\nWhile icy yin germinates in Earth.;
-41/7;Response;367;+;23/06 AM;;Each day he overcomes his faults.\nGood omens increase in response.;
-41/8;Response;368;-;23/06 PM;;Culminating yang summons yin.\nIn less than a day, it responds.;
-41/9;Response;369;+;24/06 AM;;With a culmination of great light,\nThe noble man responds with Great Decline.;
+38/1;Fullness;334;-;06/06 PM;;He prospers, but not by the line.\nHe loses secret virtue.;Prosperous but unprincipled\nHe fails to conquer himself.
+38/2;Fullness;335;+;07/06 AM;;Acts that do not depend on reward\nCan lead to great riches.;"Acts independent of ends\nThis we call ""Mysterious Power."""
+38/3;Fullness;336;-;07/06 PM;E;Love of profit fills the breast.\nIt does not profit the common good.;For it builds private gates.
+38/4;Fullness;337;+;08/06 AM;;With slight prosperity, subservience\nFunctions as a gateway for great men.;Disregarding his own prosperity\nHe serves the worthy and humane.
+38/5;Fullness;338;-;08/06 PM;;Failing to bear good fortune lightly,\nHe picks up ill and is then ensnared.;Good fortune becomes heavy burden\nIn the way of a petty man.
+38/6;Fullness;339;+;09/06 AM;;Granting him glory, Heaven\nOpens wide all borders to him.\nIn modesty there are rewards.;Modesty increases what he has.
+38/7;Fullness;340;-;09/06 PM;;As summer's fiery heat mounts up\nIt calls forth winter's icy springs.;Triple fire.\nCalamity is not far away.
+38/8;Fullness;341;+;10/06 AM;;He damps down the full blaze\nAs collapse is about to begin.;Drawing off from the brim\nHe barely escapes from danger.
+38/9;Fullness;342;-;10/06 PM;E;The greatest prosperity does not save.\nCalamity is sent down from Heaven.;Extreme fullness saves nothing.\nHeaven's Way is reversion.
+39/1;Residence;343;+;11/06 AM;E;Not giving or receiving praise or blame,\nHe thus preserves his house.;Unconcerned by the opinions of others\nHis Way is constant.
+39/2;Residence;344;-;11/06 PM;;The household has no flasks.\nThe wife supplants her elders.\nShe errs, washing them in mud.;It lacks the means to carry on.
+39/3;Residence;345;+;12/06 AM;;With young and old in proper order,\nThe son can sustain the father.;Sons carrying their fathers\nOnly then can there be renewal.
+39/4;Residence;346;-;12/06 PM;;A pig appears in the audience hall,\nWith a puppy following its tracks.;Their presence is unlucky.
+39/5;Residence;347;+;12/06 AM;E;Rudders and oars steady the ride.\nThey are good for riches and stability.;Stable peace and harmony,\nThe ride is smooth to the borders.
+39/6;Residence;348;-;13/06 PM;E;He who sets his well and stove apart,\nIn 3 years, only sees his family's back.;Division into independent households\nMeans no feasts are enjoyed.
+39/7;Residence;349;+;14/06 AM;;The old man pulls a cart.\nThe young girl raises a jar.\nBoth benefit the ancestral house.;Only then do their bodies grow strong.
+39/8;Residence;350;-;14/06 PM;;His stools upended, his ladles in pairs:\nHis household is no good.;Family usage is not right.
+39/9;Residence;351;+;15/06 AM;;If the stump produces new shoots,\nIts kind is not cut off.;Only then does its type last long.
+40/1;Law/Model;352;-;15/06 PM;;The model he builds is an unfit model.;It is not worth using.
+40/2;Law/Model;353;+;16/06 AM;;He copies the model by centering,\nAnd so he overcomes.;Being revered by all the masses.
+40/3;Law/Model;354;-;16/06 PM;;Failure to start with level and line,\nRuins his settings of compass and square.;It is their use that is at fault.
+40/4;Law/Model;355;+;17/06 AM;;Level, line, compass, square--\nNone work against our applications.;They each proceed from the self.
+40/5;Law/Model;356;-;17/06 PM;;The well rope is short, too short.\nThe water jar is full.\nThe well is deep and wide,\nIn the end it cannot slake our thirst.;This is not the way to study.
+40/6;Law/Model;357;+;18/06 AM;;In the lead thread, in the guide rope\nPropriety's glories are shown.;The Grand Rule is made clear to us.
+40/7;Law/Model;358;-;18/06 PM;;If fine nets are cast on deep pools,\nThis does not benefit the fish.;Tyrannical laws spread wider.
+40/8;Law/Model;359;+;19/06 AM;;He corrects those of us with faults\nUntil we have no depravity.;He drives us on to perfection.
+40/9;Law/Model;360;-;19/06 PM;;If the water has no rail,\nWater spills straight over.\nWith no valley or gorge,\nIt will end in a flood.;Laws are unduly excessive.
+41/1;Response;361;+;20/06 AM;;Six, as trunk, sets the pattern,\nMaking Five, the branches, well-arranged.;He adheres to the ruler.
+41/2;Response;362;-;20/06 PM;E;The calendar lays it out above,\nBelow, the pitchpipes are attuned to it.\nIf not, the union of spheres is blocked.;Otherwise, how could we think them correct?
+41/3;Response;363;+;21/06 AM;;In length and in breadth,\nHeaven's Net is vast.;Warp and woof are properly placed.
+41/4;Response;364;-;21/06 PM;;Setting nets and snares to catch us,\nEntangling lines stretch to the wilds.;He is incapable of ruling humanely.
+41/5;Response;365;+;22/06 AM;;The dragon, in soaring to Heaven,\nRightly fears for its scales.;At the peak, it fears a fall.
+41/6;Response;366;-;22/06 PM;;Blazing heat is sustained in Heaven,\nWhile icy yin germinates in Earth.;Yang begins its retreat.
+41/7;Response;367;+;23/06 AM;;Each day he overcomes his faults.\nGood omens increase in response.;He hates whatever defeats the good.
+41/8;Response;368;-;23/06 PM;;Culminating yang summons yin.\nIn less than a day, it responds.;In response, it emerges.
+41/9;Response;369;+;24/06 AM;;With a culmination of great light,\nThe noble man responds with Great Decline.;It would not be right to stay this process.
+42/1;Going to Meet;370;-;24/06 PM;;Meeting another, he does not respond.\nLacking the good, he is perverse.;He is not one whom you should join.
+42/2;Going to Meet;371;+;25/06 AM;;The scaly dragon, plunging to the depths\nInduces its eggs on the heights to quicken.\nThough some men talk in darkness,\nThe Hundred Clans respond to them.;Transformations by dragons in hiding.
+42/3;Going to Meet;372;-;25/06 PM;;The quintessential stuff of things\nTravels subtly back and forth.;Evil omens are proof of blame.
+42/4;Going to Meet;373;+;26/06 AM;;For trousers, there are always tops,\nAnd for men with eyes shiny as pearls,\nWomen with lashes curving like hooks.\nThis is right and good.;Yin stimulates yang.
+42/5;Going to Meet;374;-;26/06 PM;;When yellow rides high,\nIt obstructs the good.;The yellow rise bodes ill.\nOne cannot make friends with it.
+42/6;Going to Meet;375;+;27/06 AM;E;Black Heaven meets Yellow Earth.\nTheir ideas interact, one upon the other.;Male and female blend their essences.\nThey respond by type.
+42/7;Going to Meet;376;-;27/06 PM;;From a distance, he glares in anger.\nComing nearer, he knocks him down.\nTo meet with a father should be happy.;Glaring from afar, striking when near,\nHe has lost the idea of 'father.'
+42/8;Going to Meet;377;+;28/06 AM;;Seeing blood pour through the gates,\He keeps it away from center court.;By worthiness he protects himself.
+42/9;Going to Meet;378;-;28/06 PM;;Damp that meets the foot of the bed\nSeeps into the adjoining room.;The collapse occurs within.
+43/1;Encounters;379;+;29/06 AM;E;Meeting the gods in darkness\nUntil even dreams instruct.\nThis is a good sign.;Hidden or formless thoughts\nAttain the proper pattern.
+43/2;Encounters;380;-;29/06 PM;;To come across a conceited child,\nWho rejects teachings prescribed for him.;He is an unworthy son.
+43/3;Encounters;381;+;30/06 AM;;They neither meet illicitly\nNor do they think at all for gain.\nSuch is good conduct for knights and ladies.;Neither going nor seeking.\nThis is the rule for gentlefolk.
+43/4;Encounters;382;-;30/06 PM;;Utterly exhausted, the 'opener',\nHaving brought the rain, is endangered.;That the 'opener' encounters rain\nMeans he harms himself.
+43/5;Encounters;383;+;01/07 AM;;Out hunting, he comes upon game.\nNone forbid his taking it.;It truly is encouraging.
+43/6;Encounters;384;-;01/07 PM;;The lowly spider, in weaving its web,\nComes upon a wasp.\nHowever great the profit,\nIt cannot follow through.;Harm is not far away.
+43/7;Encounters;385;+;02/07 AM;E;He brandishes his horn, eager to defend\nRuler and father from further insult,\nThough such a fate is undeserved.;Coming to meet with his horns. Humiliation.\nStraight on the Way he proceeds.
+43/8;Encounters;386;-;02/07 PM;;Two wild oxen clash in battle.\nThe one that loses its horn\nWill not conquer death.;Lost weapons spell certain death.
+43/9;Encounters;387;+;03/07 AM;;The enemy's blow, though deflected,\nHits lower by chance, wounding the foot.;How can one escape unscathed?
+44/1;Stove;388;-;03/07 PM;;When there is no food in the stove,\nHe begs from neighbors.;The empty stove means\nHe bears an empty reputation.
+44/2;Stove;389;+;04/07 AM;;The golden tripod is immense,\nIts center bowl matches its size.\nStill, they do not eat nor drink.\nTruly there is no harm.;At center, incorruptible and good.
+44/3;Stove;390;-;04/07 PM;;;
+44/4;Stove;391;+;05/07 AM;;;
+44/5;Stove;392;-;05/07 PM;;;
+44/6;Stove;393;+;06/07 AM;;;
+44/7;Stove;394;-;06/07 PM;;;
+44/8;Stove;395;+;07/07 AM;;;
+44/9;Stove;396;-;07/07 PM;;;
