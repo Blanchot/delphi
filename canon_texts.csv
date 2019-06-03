@@ -153,7 +153,7 @@
 36/9;Strength;324;-;01/06 PM;;He uproots Mount T'ai,\nHe snaps pillars and beams.\nSuch men stumble and fall.;In the end, he's undone by violence.
 37/1;Purity;325;+;02/06 AM;;Pure within,\nHe is clear, without stain.;Gazing within, he finds\nHis conscience is clear and incorrupt.
 37/2;Purity;326;-;02/06 PM;E;Tainted secretly, while feigning purity,\nHe is ashamed to the center of his self.;A dark mix pretending to be pure.\nInauthenticity and self deceit.
-37/3;Purity;327;+;03/06 AM;;He lifts his eyes up to Heaven.\nHe lowers his ears to the depths.\nSuch is reverence.;He maintains a reverential attitude\nIn everything.
+37/3;Purity;327;+;03/06 AM;;He lifts his eyes up to Heaven.\nHe lowers his ears to the depths.\nSuch is reverence.;He maintains a reverential attitude\nTowards all things.
 37/4;Purity;328;-;03/06 PM;;The petty man envies the pure,\nAnd so looses rank and propriety.;The Way is not attained.
 37/5;Purity;329;+;04/06 AM;;"Pure to the hidden ""yellow"" core:\nSupremely stable, he knows no bounds.";His model is the rectifying Earth.
 37/6;Purity;330;-;04/06 PM;;Great purity gives way to error,\nAnd so there is change.;Purity succeeded by error\nThe petty man is overcome.
@@ -216,10 +216,19 @@
 43/9;Encounters;387;+;03/07 AM;;The enemy's blow, though deflected,\nHits lower by chance, wounding the foot.;How can one escape unscathed?
 44/1;Stove;388;-;03/07 PM;;When there is no food in the stove,\nHe begs from neighbors.;The empty stove means\nHe bears an empty reputation.
 44/2;Stove;389;+;04/07 AM;;The golden tripod is immense,\nIts center bowl matches its size.\nStill, they do not eat nor drink.\nTruly there is no harm.;At center, incorruptible and good.
-44/3;Stove;390;-;04/07 PM;;;
-44/4;Stove;391;+;05/07 AM;;;
-44/5;Stove;392;-;05/07 PM;;;
-44/6;Stove;393;+;06/07 AM;;;
-44/7;Stove;394;-;06/07 PM;;;
-44/8;Stove;395;+;07/07 AM;;;
-44/9;Stove;396;-;07/07 PM;;;
+44/3;Stove;390;-;04/07 PM;;There is no firewood in the stove.\nThe golden vessel is set aside.;What one has cannot be used.
+44/4;Stove;391;+;05/07 AM;;Eating food from the tripod steamer,\nHe gains the strength to toil.;It is offered to us in time.
+44/5;Stove;392;-;05/07 PM;;The large tripod can be used as a goblet\nBut this is neither pious nor dignified.;The feast then lacks all meaning.
+44/6;Stove;393;+;06/07 AM;;The Five Tastes are blended properly,\nThe flavors are balanced and fine.\nA feast fit for the great man.;A feast where flavors are harmonized\nThis is the duty of ministers.
+44/7;Stove;394;-;06/07 PM;;The fattened ox is perfectly plump\nBut if cooked in an unwashed pot,\nRetching and gagging result.;Impure are their goals.
+44/8;Stove;395;+;07/07 AM;;If he eats what he has stored,\nDespite an outcry, no harm is done.;He is lavished with his ruler's favor.
+44/9;Stove;396;-;07/07 PM;E;Once the fire in the stove is put out,\nNothing but disaster comes to the house.;Destruction of the stove represents\nFinal death for family and state.
+45/1;Greatness;397;+;08/07 AM;;The pool so deep and broad\nCradles all sides in darkness.;The deep, broad pool\nEnvelopes an infinity of things.
+45/2;Greatness;398;-;08/07 PM;E;In enlarging its ambitions\nThe self grinds itself down.;To think without studying is dangerous.\nHe is harmed by his thoughts.
+45/3;Greatness;399;+;09/07 AM;;Great not great.\nTreating the small as great\nHelps in becoming great.;Making great use of the small.\nHe takes the small as the base.
+45/4;Greatness;400;-;09/07 PM;;;
+45/5;Greatness;401;+;10/07 AM;;;
+45/6;Greatness;402;-;10/07 PM;;;
+45/7;Greatness;403;+;11/07 AM;;;
+45/8;Greatness;404;-;11/07 PM;;;
+45/9;Greatness;405;+;12/07 AM;;;
